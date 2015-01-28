@@ -13,7 +13,7 @@
             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context=".MainActivity"
-            android:background="@drawable/background"
+            android:background="@drawable/button_background"
             >
 
 
@@ -63,7 +63,7 @@
                 android:clickable="true"
                 android:layout_below="@+id/mainTitle"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="105dp"
+                android:layout_marginTop="130dp"
                 android:textSize="60dp"
                 android:background="@drawable/button"/>
 

@@ -2,16 +2,14 @@ package com.chri99.tavolaperiodica;
 
 import android.app.Activity;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.GestureDetectorCompat;
-import android.support.v7.app.ActionBarActivity;
 import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -54,7 +52,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
     ///Button event Handling///
     public void buttonHandler() {
 
-        Button searchBtn = (Button) findViewById(R.id.searchBtn);
+        final Button searchBtn = (Button) findViewById(R.id.searchBtn);
         final ImageButton elementBtn = (ImageButton) findViewById(R.id.elementBtn);
         final TextView warning_text = (TextView) findViewById(R.id.warning_text);
 
@@ -63,8 +61,10 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
                     public void onClick(View v) {
                         try {
                             EditText nameInput = (EditText) findViewById(R.id.nameInput);
+
                             elementBtn.setVisibility(View.VISIBLE);
-                            elementBtn.setClickable(true);
+                            elementBtn.setBackgroundColor(Color.TRANSPARENT);
+
                             inp = FirstUpperCase(nameInput.getText().toString());
                             SearchClass search = new SearchClass();
                             ans = getArray(search.getNAt(inp));
@@ -72,7 +72,6 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
                         } catch (Exception e) {
                             isProcessed = false;
                             elementBtn.setVisibility(View.INVISIBLE);
-                            elementBtn.setClickable(false);
                             warning_text.setText("!");
 
                         }

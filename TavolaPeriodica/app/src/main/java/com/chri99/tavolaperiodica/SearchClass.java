@@ -300,6 +300,55 @@ public class SearchClass {
             case 19:
                 i = R.drawable.e19;
                 break;
+            case 20:
+                i = R.drawable.e21;
+                break;
+            case 21:
+                i = R.drawable.e22;
+                break;
+            case 22:
+                i = R.drawable.e23;
+                break;
+            case 23:
+                i = R.drawable.e24;
+                break;
+            case 24:
+                i = R.drawable.e25;
+                break;
+            case 25:
+                i = R.drawable.e26;
+                break;
+            case 26:
+                i = R.drawable.e27;
+                break;
+            case 27:
+                i = R.drawable.e28;
+                break;
+            case 28:
+                i = R.drawable.e29;
+                break;
+            case 29:
+                i = R.drawable.e30;
+                break;
+            case 30:
+                i = R.drawable.e31;
+                break;
+            case 31:
+                i = R.drawable.e32;
+                break;
+            case 32:
+                i = R.drawable.e33;
+                break;
+            case 33:
+                i = R.drawable.e34;
+                break;
+            case 34:
+                i = R.drawable.e35;
+                break;
+            case 35:
+                i = R.drawable.e36;
+                break;
+
         }
         return i;
 
