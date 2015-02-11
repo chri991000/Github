@@ -1,0 +1,5 @@
+/Users/mac/Desktop/GitHubRepo/TavolaPeriodica/app/build/intermediates/classes/debug
+/Users/mac/Desktop/GitHubRepo/TavolaPeriodica/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-cc1be2e1ba8dd38a02a4cdc921e561a8e9a65cb9.jar
+/Users/mac/Desktop/GitHubRepo/TavolaPeriodica/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-935e52140d2afa8b61d186c3e3dc319edd616283.jar
+/Users/mac/Desktop/GitHubRepo/TavolaPeriodica/app/build/intermediates/pre-dexed/debug/classes-d39a2fd01af6298c836cddf87b1864a450f8a1de.jar
+/Users/mac/Desktop/GitHubRepo/TavolaPeriodica/app/build/intermediates/pre-dexed/debug/classes-4a8af4bf883724c44e30635b23d68156d16c804b.jar
